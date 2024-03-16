@@ -57,7 +57,6 @@
         dest: "/etc/nginx/sites-enabled/ansible.iphilka.ru.conf"
         state: link
       
-
     - name: turn off
       become: yes
       file:
